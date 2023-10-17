@@ -164,7 +164,11 @@ button:hover{
 	color: var(--dark-blue);
 	cursor:pointer;
 	margin-top:18px;
+}
 
-
+.attribution{
+	text-align: center;
+	font-size:15px;
+	color:var(--desaturated-blue);
 }
 
