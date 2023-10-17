@@ -1,0 +1,164 @@
+:root {
+	--pale-blue: hsl(225, 100%, 94%);
+	--bright-blue: hsl(245, 75%, 52%);
+	--very-pale-blue: hsl(225, 100%, 98%);
+	--desaturated-blue: hsl(224, 23%, 55%);
+	--dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+		background-image: url('images/pattern-background-desktop.svg');
+		font-family:Red Hat Display;
+		background-repeat:no-repeat;
+		padding:30px;
+}
+
+main{
+	box-sizing:border-box;
+	height:700px;
+	width: 450px;
+	margin:0 auto;
+}
+
+
+.flex-grid > * {
+  	margin:0;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
+}
+
+.item-1{
+	box-sizing:border-box;
+	margin:0;
+}
+
+#img1{
+	width:auto;
+	height:100%;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	margin:0;
+}
+
+.item-2{
+	height:400px;
+	width:100%px;
+	margin-top:-10px;
+	padding:20px 45px 20px 45px;
+	background-color: white;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+.plan{
+	height:85px;
+	width:350px;
+	margin:0 auto;
+	margin-top:30px;
+	border-radius:10px;
+	background-color: var(--very-pale-blue);
+	display: grid; 
+	grid-auto-flow:column;
+
+}
+
+.item-2 #description {
+	color: var(--desaturated-blue)
+}
+
+.music-icon{
+	height: 15px;
+	width:15px;
+	margin: 15px 0px 15px 20px;
+	grid-column:1;
+}
+
+#annual-cost{
+	grid-column:2;
+	font-size:15px;
+	margin-left:5px;
+	text-align:left;
+
+}
+
+#annual-plan{
+	font-weight:800;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+
+#price{
+	margin-top:0px;
+	font-size:15px;
+	color: var(--desaturated-blue);
+}
+
+#change{
+	grid-column:3;
+	font-size:15px;
+	margin:auto 0;
+	margin-right:10px;
+	text-decoration:underline;
+	color: var(--bright-blue);
+	font-weight: 700;
+}
+
+#change:hover{
+	grid-column:3;
+	font-size:15px;
+	margin:auto 0;
+	margin-right:10px;
+	color: var(--bright-blue);
+	filter: brightness(2);
+	text-decoration: none;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+button{
+	height: 50px;
+	width:350px;
+	margin-top:32px;
+	margin-bottom:13px;
+	background-color: var(--bright-blue);
+	border:none;
+	border-radius:8px;
+	color: white;
+	font-weight:700;
+	box-shadow: 0px 20px 10px var(--pale-blue);
+}
+
+button:hover{
+	height: 50px;
+	width:350px;
+	margin-top:32px;
+	margin-bottom:13px;
+	background-color: hsla(245, 75%, 70%, 1);
+	border:none;
+	border-radius:8px;
+	color: white;
+	font-weight:700;
+	box-shadow: 0px 20px 10px var(--pale-blue);
+	cursor:pointer;
+}
+
+.h1{
+	color: var(--dark-blue);
+}
+
+#cancel-order{
+	font-size:13px;
+	font-weight:700;
+	color: var(--desaturated-blue);
+
+}
+
+#cancel-order:hover{
+	font-size:13px;
+	font-weight:700;
+	color: var(--dark-blue);
+	cursor:pointer;
+
+}
+

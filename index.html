@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+    <!-- style sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon-32x32.png">
+</head>
+<body>
+  <main>
+
+    <div class="flex-grid">
+        <div class="item-1"><img id="img1" src="images/illustration-hero.svg"></div>
+        <div class="item-2">
+            <h1>Order Summary</h1>
+
+            <p id="description">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+
+            <!-- parent element -->
+            <div class="plan">
+            <!-- left icon -->
+              <div class="music-icon"><img alt="music icon" src="images/icon-music.svg"></div>
+              <!-- annual plan + price -->
+              <div id="annual-cost"><p id="annual-plan">Annual Plan</p>
+              <p id="price">59.99/year</p></div>
+              <!-- change -->
+              <p id="change">Change</p>
+            </div>
+
+             <button type="button">
+              Proceed to Payment
+              </button>
+
+
+              <p id="cancel-order">Cancel Order</p>
+        </div>
+
+     </div>
+            
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
